@@ -4543,7 +4543,7 @@ const $  = (s,p=document)=>p.querySelector(s);
 // ✅ دالة بسيطة للتحقق من الرقم السرّي قبل الحذف
 function checkDeletePin() {
   // لاحقًا يمكن تقييد الحذف للأدمن فقط
-  const REQUIRED_PIN = '998080';
+  const REQUIRED_PIN = '456565';
   const isEn = !!(window.__getLang && window.__getLang()==='en');
   const tr = (x)=> (isEn && window.__translateLangString) ? window.__translateLangString(x) : x;
   const input = prompt(tr('أدخل الرقم السري لتأكيد الحذف:'));
