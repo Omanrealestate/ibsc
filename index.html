@@ -2577,7 +2577,7 @@ input[type="checkbox"]:focus {
       if(!item) return;
       const pass = prompt("أدخل الرقم السري لحذف هذا الوارد");
       if(pass === null) return;
-      if(pass !== "9133"){
+      if(pass !== "456565"){
         alert("الرقم السري غير صحيح");
         return;
       }
@@ -6069,7 +6069,7 @@ row.querySelector('[data-pay]').onclick = async (ev)=>{
       delBtn.style.display = 'none';
     }else{
       delBtn.onclick = async ()=>{
-        const REQUIRED_PIN = '998080';
+        const REQUIRED_PIN = '456565';
         const delLabel = isOA ? 'هذه السنة' : 'هذا الشهر';
         const pin = prompt('أدخل الرقم السري لتأكيد حذف سجل ' + delLabel + ':');
         if(pin !== REQUIRED_PIN) return alert('الرقم السري غير صحيح.');
